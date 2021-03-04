@@ -14,6 +14,7 @@ if [ $dec = '1' ]; then
   iwctl 
   station $wifi_card scan
   station $wifi_card connect $wifi
+  exit
 fi
 echo "cfdisk[1] or fdisk[2]"
 read dec
